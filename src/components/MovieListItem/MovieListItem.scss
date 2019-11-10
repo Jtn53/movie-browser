@@ -1,0 +1,28 @@
+.movie-list-item-container {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    border: 1px solid lightgray;
+    max-width: 800px;
+    margin: 10px auto;
+    border-radius: 30px;
+
+    .thumbnail {
+        height: 200px;
+        overflow: hidden;
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .info-container {
+        display: inline-block;
+        width: 70%;
+        vertical-align: top;
+    };
+
+    .title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}

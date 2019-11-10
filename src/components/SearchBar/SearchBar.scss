@@ -1,0 +1,17 @@
+#search-bar-container {
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    @media screen and (max-width: 500px) {
+        width: 100%;
+    }
+
+    form {
+        display: block;
+        width: 100%;
+
+        input {
+            width: 80%;
+        }
+    }
+}
