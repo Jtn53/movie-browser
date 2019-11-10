@@ -11,7 +11,7 @@ type SearchResultListProps = {
 const SearchResultList: React.FC<SearchResultListProps> = (props): JSX.Element => {
     const renderMovieItem = (movie: MovieDetail) => {
         return (
-            <MovieListItem id={movie.id} title={movie.title} overview={movie.overview} imageURL={movie.poster_path} key={movie.id}/>
+            <MovieListItem id={movie.id} title={movie.title} overview={movie.overview} imageURL={movie.poster_path} releaseDate={movie.release_date} key={movie.id}/>
         );
     }
 

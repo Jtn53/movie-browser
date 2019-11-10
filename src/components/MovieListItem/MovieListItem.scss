@@ -4,25 +4,29 @@
     color: black;
     padding: 20px;
     border: 1px solid lightgray;
-    max-width: 800px;
+    max-width: 300px;
     margin: 10px auto;
     border-radius: 30px;
 
     .thumbnail {
-        height: 200px;
+        height: 100px;
+        width: 40%;
         overflow: hidden;
         display: inline-block;
         margin: 0 10px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
     }
 
     .info-container {
         display: inline-block;
-        width: 70%;
         vertical-align: top;
+        width: 50%;
     };
 
     .title {
         font-size: 20px;
-        margin-bottom: 20px;
+        text-align: center;
     }
 }

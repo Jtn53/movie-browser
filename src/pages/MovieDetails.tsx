@@ -47,9 +47,9 @@ const MovieDetails: React.FC<MovieDetailsProps> = (props) => {
                 <div>Couldn't find the movie</div>
             );
         }
-        
+
         return (
-            <div>Something went really wrong! Try again :(</div>
+            <div>Something went really wrong, try again</div>
         );
     }
 
