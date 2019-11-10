@@ -17,9 +17,10 @@ This app is powered by themoviedb API to look for movies and return results.
 ## Things that can be improved, given more time
 
 - add pagination to movie results
-- styling (looks pretty ugly, a little janky at very small screen sizes)
+- styling (looks reeeeally ugly right now)
 - create a fetch wrapper (or use Axios, etc) for better browser compatibility and separation of concerns with the view
-- error edge cases especially around API responses
-- call MovieDB's configuration API to set configs up properly instead of hardcoding
+- handle errors better, especially around API responses
+- call MovieDB's configuration API to set configs up properly instead of hardcoding the image sizes
 - make back button work properly with React Router's history
 - better loading states for the pages (isLoading state, show a loading spinner or something)
+- actually write unit tests
